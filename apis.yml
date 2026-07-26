@@ -1,7 +1,30 @@
 aid: eventtus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eventtus.png
 name: Eventtus
-description: Eventtus is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Eventtus was a Cairo, Egypt-based event technology company that built a mobile
+  event app and attendee-engagement platform for conferences, trade shows, and
+  community events. Its product offered event apps with agendas, networking and
+  matchmaking, live Q&A and polls, push notifications, social feeds, lead
+  capture, badge printing, online registration, and organizer analytics. Founded
+  by Mai Medhat and Nihal Fares, Eventtus raised venture funding from investors
+  including 500 Startups (500 Global), Vodafone Ventures, and Endure Capital, and
+  was acquired by the community-events platform Bevy in July 2021. This profile
+  was surfaced as a portfolio company of 500 Global and added to the API
+  Evangelist network. Enrichment found no live public API, developer portal, or
+  first-party SDK — the eventtus.com domain no longer resolves and the
+  engineering blog is offline — so the profile is retained as identity only.
 url: https://raw.githubusercontent.com/api-evangelist/eventtus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +32,20 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Acquired by Bevy (July 2021); eventtus.com no longer resolves and no live API surface found (2026-07-19).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Events
+- Event Technology
+- Event Management
+- Mobile App
+- Attendee Engagement
+- Egypt
+- Community
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,10 @@ maintainers:
 common:
 - type: Website
   url: https://eventtus.com
+- type: GitHubOrganization
+  url: https://github.com/eventtus
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
