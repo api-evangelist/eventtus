@@ -45,7 +45,7 @@ x-status-note: Acquired by Bevy (July 2021); eventtus.com no longer resolves and
   (2026-07-19).
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Event
@@ -55,6 +55,7 @@ tags:
 - Attendee Engagement
 - Egypt
 - Community
+- Defunct
 tags_raw:
 - Company
 - Events
@@ -64,6 +65,7 @@ tags_raw:
 - Attendee Engagement
 - Egypt
 - Community
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
