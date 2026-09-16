@@ -23,19 +23,16 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/eventtus.png
 name: Eventtus
-description: >-
-  Eventtus was a Cairo, Egypt-based event technology company that built a mobile
-  event app and attendee-engagement platform for conferences, trade shows, and
-  community events. Its product offered event apps with agendas, networking and
-  matchmaking, live Q&A and polls, push notifications, social feeds, lead
-  capture, badge printing, online registration, and organizer analytics. Founded
-  by Mai Medhat and Nihal Fares, Eventtus raised venture funding from investors
-  including 500 Startups (500 Global), Vodafone Ventures, and Endure Capital, and
-  was acquired by the community-events platform Bevy in July 2021. This profile
-  was surfaced as a portfolio company of 500 Global and added to the API
-  Evangelist network. Enrichment found no live public API, developer portal, or
-  first-party SDK — the eventtus.com domain no longer resolves and the
-  engineering blog is offline — so the profile is retained as identity only.
+description: Eventtus was a Cairo, Egypt-based event technology company that built a mobile event app
+  and attendee-engagement platform for conferences, trade shows, and community events. Its product offered
+  event apps with agendas, networking and matchmaking, live Q&A and polls, push notifications, social
+  feeds, lead capture, badge printing, online registration, and organizer analytics. Founded by Mai Medhat
+  and Nihal Fares, Eventtus raised venture funding from investors including 500 Startups (500 Global),
+  Vodafone Ventures, and Endure Capital, and was acquired by the community-events platform Bevy in July
+  2021. This profile was surfaced as a portfolio company of 500 Global and added to the API Evangelist
+  network. Enrichment found no live public API, developer portal, or first-party SDK — the eventtus.com
+  domain no longer resolves and the engineering blog is offline — so the profile is retained as identity
+  only.
 url: https://raw.githubusercontent.com/api-evangelist/eventtus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -44,10 +41,11 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
-x-status-note: Acquired by Bevy (July 2021); eventtus.com no longer resolves and no live API surface found (2026-07-19).
+x-status-note: Acquired by Bevy (July 2021); eventtus.com no longer resolves and no live API surface found
+  (2026-07-19).
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 tags:
 - Company
 - Event
@@ -57,6 +55,7 @@ tags:
 - Attendee Engagement
 - Egypt
 - Community
+- Defunct
 tags_raw:
 - Company
 - Events
